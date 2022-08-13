@@ -178,9 +178,9 @@ sudo lsof -t -i tcp:80 -s tcp:listen | sudo xargs kill
 #bash acme.sh --install
 #rm acme.sh
 #cd .acme.sh
-#bash acme.sh --register-account -m slinfinity69@gmail.com
-#bash acme.sh --issue --standalone -d $domain --force
-#bash acme.sh --installcert -d $domain --fullchainpath /etc/xray/xray.crt --keypath /etc/xray/xray.key
+#bash acme.sh --register-account -m tester@esohjay.ml
+#bash acme.sh --issue --standalone -d ovr.esohjay.ml --force
+#bash acme.sh --installcert -d ovr.esohjay.ml --fullchainpath /etc/xray/xray.crt --keypath /etc/xray/xray.key
 
 uuid9=$(cat /proc/sys/kernel/random/uuid)
 uuid1=b8458948-a630-4e6d-809a-230b2223ff3d
